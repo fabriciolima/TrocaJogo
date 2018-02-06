@@ -5,6 +5,7 @@ import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
+import android.arch.persistence.room.Update;
 
 import com.fabricio.trocajogos.Jogo;
 
@@ -27,4 +28,7 @@ public interface JogoDAO {
 
     @Delete
     void delete(Jogo jogo);
+
+    @Update
+    public void updateUsers(Jogo... jogo);
 }
