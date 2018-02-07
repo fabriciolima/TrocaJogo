@@ -17,4 +17,11 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lista_jogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"	/>
+
+
 </android.support.constraint.ConstraintLayout>
